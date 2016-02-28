@@ -15,5 +15,4 @@ class Bag {
   Bag(int[] v) {
     values = v;
   }
-
 }
