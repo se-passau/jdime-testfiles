@@ -1,19 +1,19 @@
-public class SWTry {
+public class SurroundWithTry {
 
     public void doSmth() {
-<<<<<<< .\threeway\left\SimpleTests\SurroundWithTry.java
+<<<<<<< .\left\SimpleTests\SurroundWithTry.java
         try {
-            String s = dangerous();
+            String s = ex();
         } catch (RuntimeException e) {
             e.printStackTrace();
         }
 =======
-        String s = dangerous();
+        String s = ex();
         System.out.println(s);
->>>>>>> .\threeway\right\SimpleTests\SurroundWithTry.java
+>>>>>>> .\right\SimpleTests\SurroundWithTry.java
     }
 
-    private String dangerous() throws RuntimeException {
-        return "Not dangerous after all!";
+    private String ex() {
+        throw new RuntimeException();
     }
 }

@@ -1,10 +1,10 @@
-public class SWTry {
+public class SurroundWithTry {
 
     public void doSmth() {
-        String s = dangerous();
+        String s = ex();
     }
 
-    private String dangerous() throws RuntimeException {
-        return "Not dangerous after all!";
+    private String ex() {
+        throw new RuntimeException();
     }
 }
