@@ -7,8 +7,7 @@ public class MethodLevelFormatting {
     if (Math.random() > .6f) {
       System.out.println("40% chance!");
     }
-    try (
-      OutputStream out = new FileOutputStream("out");) {
+    try (OutputStream out = new FileOutputStream("out")) {
       out.write(21);
     } catch (IOException e) {
       e.printStackTrace();
