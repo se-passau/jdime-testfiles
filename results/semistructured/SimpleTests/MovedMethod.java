@@ -1,8 +1,10 @@
+
 public class MovedMethod {
   private void foo() {
-    System.out.println("Hallo");
+        System.out.println("Hallo");
   }
+
   public int bar() {
-    return 42;
+        return 42;
   }
 }
