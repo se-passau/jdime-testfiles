@@ -6,11 +6,11 @@ class Bag {
     String res = "";
     String sep = 
 <<<<<<<
-","
+    ","
 =======
-";"
+    ";"
 >>>>>>>
-;
+    ;
     for (int v : values) {
       res += v + sep;
     }
