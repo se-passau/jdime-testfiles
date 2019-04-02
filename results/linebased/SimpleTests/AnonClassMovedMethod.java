@@ -46,6 +46,6 @@ public class AnonClassMovedMethod {
             public void mouseExited(MouseEvent e) {
                 System.out.println("Mouse Exited!");
             }
-        }
+        };
     }
 }
